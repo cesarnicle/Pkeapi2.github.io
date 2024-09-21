@@ -1,0 +1,34 @@
+#container{
+  width: 1250px;
+  height: auto;
+  display: flex;
+  flex-wrap:wrap;
+  justify-content: center;
+  padding: 20px;
+  background-color:beige;
+  
+}
+
+.card{
+  width: 280px;
+  height: 80;
+  padding: 2px;
+  margin: 5px;
+  background-color: yellow;
+  border: 5px solid black;
+  border-radius: 40px;
+  text-align: center;
+  flex-direction: column;
+}
+
+.url_card{
+  text-decoration: underline blue;
+  color: blue;
+}
+
+.nombre_card{
+  text-transform: capitalize;
+  font-weight: bolder;
+  font-size: 20px;
+  
+}
